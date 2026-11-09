@@ -1,0 +1,80 @@
+# add all the dataset folder paths here if present in this directory and the model weights if any 
+#  you dont want to make your repo dirty
+
+
+
+# =========================
+# Editor & OS Files
+# =========================
+.vscode/
+.vscode-test/
+*~
+.DS_Store
+
+# =========================
+# Python & Environments
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# =========================
+# Datasets & Preprocessed Matrices
+# =========================
+# Ignore raw text dumps and massive sparse matrices
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.txt
+*.pkl
+*.npy
+*.npz
+
+# =========================
+# ML Models & Checkpoints
+# =========================
+# Keeps PyTorch, Safetensors, and other weights out of source control
+models/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.safetensors
+*.bin
+
+# =========================
+# Logs & Tracking
+# =========================
+logs/
+runs/
+wandb/
+tensorboard/
+
+
+
+
+
+
+# =======================
+# Custom exclusions
+# ===================
+
+# folders 
+datasets/
+
+
+# files
